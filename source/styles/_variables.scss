@@ -1,0 +1,51 @@
+// ---------- COLOURS
+
+$mono-white:   #FFFFFF;  // White
+$mono-x-light: #F9F9F9;  // Extra Light Grey
+$mono-light:   #ECEBED;  // Light Grey
+$mono-reg:     #DBDADC;  // Mid Grey
+$mono-dark:    #878688;  // Dark Grey
+$mono-x-dark:  #333333;  // Extra Dark Grey
+$mono-black:   #000000;  // Black
+
+$color-one:    #C20000;  // Red
+$color-two:    #A50000;  // Dark Red
+
+$nab-grey:     #F2F4F6;
+$nab-red:      #c20000;
+
+$button-color: #DB0020;
+$button-border1: #C2001C;
+$button-border2: #840013;
+$button-hover: #B2001A;
+
+
+// ---------- FONTS
+$body-fonts: Arial, sans-serif;
+
+
+// ---------- PATHS
+$imgPath: '../images/';
+
+// ---------- MEDIA QUERY
+
+$height-xx-small: em(320); //LG Optimus One & iPhone 3/4/5 horizontal
+$height-x-small: em(375); //iPhone 6 horizontal
+$height-small: em(414); //iPhone 6 Plus horizontal
+$height-small-medium: em(480); //iPhone 3/4
+$height-medium: em(568); //iPhone 5
+$height-medium-large: em(667); //iPhone 6 and up
+$height-large: em(736); //iPhone 6 Plus and up
+$height-percentage-breakpoint: em(800); //iPhone 6 and up
+
+// declare breakpoints
+$usn-x-small         : 320px;
+$usn-small           : 360px;
+$usn-small-medium    : 540px;
+$usn-medium          : 768px;
+$usn-large-medium    : 960px;
+$usn-large           : 1200px;
+$usn-x-large         : 1400px;
+$usn-xx-large        : 1600px;
+$usn-xxx-large       : 1800px;
+$usn-huge            : 2000px;

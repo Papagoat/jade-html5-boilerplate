@@ -1,0 +1,74 @@
+body {
+    font-family: $body-fonts;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5 {
+    font-family: $body-fonts;
+    font-weight: normal;
+    line-height: .95;
+}
+
+h1 {
+    line-height: 1;
+    margin: 0;
+}
+
+h2 {
+    line-height: 1.2;
+    margin: 0;
+}
+
+h6 {
+    font-family: $body-fonts;
+    font-weight: bold;
+    line-height: .95;
+    margin: 0;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+// -------------------------------------------------- sizing
+
+h1 {
+    font-size: em(48);
+}
+
+h2 {
+    font-size: em(30);
+}
+
+h6 {
+    font-size: em(16);
+}
+
+@media screen and (min-width: $usn-x-small) {
+    h1 {
+        font-size: em(60);
+    }
+    h2 {
+        font-size: em(40);
+    }
+}
+
+@media screen and (min-width: $usn-small) {
+    h1 {
+        font-size: em(60);
+    }
+    h2 {
+        font-size: em(40);
+    }
+}
+
+// -------------------------------------------------- buttons
+
+button, input[type='submit'] {
+    &.hero {
+        font-family: $body-fonts;
+        font-weight: normal;
+    }
+}

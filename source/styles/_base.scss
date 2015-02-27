@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+// -------------------------------------------------- utility/layout
+section {
+  padding: em(40) 0;
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+
+
+// -------------------------------------------------- body section
+
+section {
+    &.body {
+      text-align: center;
+    }
+    p {
+      font-family: $body-fonts;
+      font-size: em(18);
+    }
+}
