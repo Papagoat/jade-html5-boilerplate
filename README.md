@@ -1,5 +1,6 @@
-# jade-html5-boilerplate
+# This repository is no longer maintained.
 
+### jade-html5-boilerplate
 This is a jade HTML5 Boilerplate template
 
 CD into your directory via terminal and launch the server using grunt serve.
